@@ -1,2 +1,6 @@
-# Walmart-Financial-Analysis
-A financial analysis of Walmart Inc. (FY2020–FY2025) covering revenue, profitability margins, returns, and peer benchmarking, complete with an interactive dashboard, analyst insights, and a full DCF valuation model.
+# Walmart-Financial-Analysis & DCF-Valuation
+Using Walmart's 10-K filings from FY2020–FY2025, I built a complete financial analysis and valuation model from primary source data.
+I started by pulling raw financials directly from the 10-Ks: revenue, expenses, total assets, total debt, and other core metrics. From there, I built a Ratios & Calculations tab covering profitability and return ratios, along with a full DCF valuation built from the ground up, including a WACC calculation derived from CAPM.
+To better understand Walmart's trajectory, I added a Year-over-Year Growth tab tracking revenue, net income, and gross profit over the period. I also built a Peer Comparison against Target and Kroger to benchmark Walmart's performance against competitors, highlighting Walmart's relative resilience.
+For the valuation itself, I built a 5-year DCF model with a sensitivity table showing implied share price across a range of WACC and growth rate assumptions. The model's base case implies Walmart is significantly overvalued at its current market price, suggesting the market is pricing in growth that historical free cash flow doesn't yet support.
+Finally, I added an Insight tab with my own analysis and commentary on each section, and a Dashboard tab to visually summarize the key findings.
